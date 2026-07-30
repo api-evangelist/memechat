@@ -1,7 +1,26 @@
 aid: memechat
 name: MemeChat
-description: MemeChat is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  MemeChat is an Indian consumer social and creator-economy mobile app from
+  MemeChat Private Limited (Memetech), where users make, share, and compete
+  with memes — including a Face Swap AI feature and a MemeChat keyboard — and
+  earn money when their content goes viral. Marketed as a self-reliant
+  ("Atmanirbhar") Indian app that has crossed five million users, it is backed
+  by 500 Global. This API Evangelist profile is a network stub: MemeChat is a
+  consumer application with no public developer API, SDK, or documentation
+  surface discovered at the time of enrichment.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://i.ibb.co/GJ7DtgZ/cropped-Meme-Chat-Logo.png
 url: https://raw.githubusercontent.com/api-evangelist/memechat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,15 +30,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Memes
+- Social
+- Creator Economy
+- Mobile App
+- Content
+- Consumer
+- Entertainment
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+- FN: MemeChat Support
+  email: contact@memechat.app
 common:
 - type: Website
   url: https://memechat.app
+- type: Blog
+  url: https://memechat.app/blogs
+- type: Support
+  url: https://memechat.app/contact
+- type: PrivacyPolicy
+  url: https://memechat.app/privacy.html
+- type: DomainSecurity
+  url: security/memechat-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
