@@ -9,6 +9,17 @@ description: >-
   by 500 Global. This API Evangelist profile is a network stub: MemeChat is a
   consumer application with no public developer API, SDK, or documentation
   surface discovered at the time of enrichment.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
